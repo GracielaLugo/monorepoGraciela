@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,7 +23,30 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@repo/database": [
+        "../../packages/database/src"
+      ],
+      "@repo/service-menu": [
+        "../../packages/service-menu/src"
+      ],
+      "@repo/service-sales": [
+        "../../packages/service-sales/src"
+      ],
+      "@repo/service-inventory": [
+        "../../packages/service-inventory/src"
+      ],
+      "@repo/service-suppliers": [
+        "../../packages/service-suppliers/src"
+      ],
+      "@repo/service-payroll": [
+        "../../packages/service-payroll/src"
+      ],
+      "@repo/service-credit": [
+        "../../packages/service-credit/src"
+      ]
     }
   },
   "include": [
@@ -30,5 +57,7 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

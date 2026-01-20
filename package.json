@@ -1,6 +1,6 @@
 {
     "name": "pos-monorepo",
-    "packageManager": "npm@11.6.2",
+    "packageManager": "npm@10.8.2",
     "private": true,
     "workspaces": [
         "apps/*",
@@ -12,8 +12,10 @@
         "lint": "turbo lint",
         "format": "prettier --write \"**/*.{ts,tsx,md}\""
     },
+    "dependencies": {
+        "turbo": "latest"
+    },
     "devDependencies": {
-        "turbo": "latest",
         "prettier": "latest"
     }
 }
