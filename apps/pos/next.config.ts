@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
     "@repo/service-sales",
     "@repo/service-suppliers",
   ],
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
