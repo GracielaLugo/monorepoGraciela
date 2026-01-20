@@ -1,5 +1,6 @@
 {
     "name": "pos-monorepo",
+    "packageManager": "npm@11.6.2",
     "private": true,
     "workspaces": [
         "apps/*",
